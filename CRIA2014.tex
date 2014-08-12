@@ -92,11 +92,10 @@ Con la correcta distribución de capas de neuronas simples, un red neuronal arti
 La detección de faltas en sistemas, en general, requiere una distribución de capas y neuronas que les permita \textbf{aprender} el comportamiento del sistema tanto en condiciones normales como en falta. 
 \begin{center}
 \includegraphics[width=\linewidth]{ann}
-\\ {\footnotesize \textbf{Figura 2.} Arquitectura de red con una capa oculta.}
+\\ {\footnotesize \textbf{Figura 1.} Arquitectura de red con una capa oculta.}
 \end{center}
 
-Un \textbf{filtro digital} es un algoritmo  que puede ser implementado tanto por software como por hardware y que opera sobre una señal, con el objetivo de discriminar información que no es relevante.
-En este trabajo se utilizó un filtro Butterworth de orden 5 discretizado por el método de la transformada bilineal para eliminar las frecuencias no deseadas provenientes de factores externos a la estructura.
+%En este trabajo se utilizó un filtro Butterworth de orden 5 discretizado por el %método de la transformada bilineal para eliminar las frecuencias no deseadas %provenientes de factores externos a la estructura.
 
 
 
@@ -109,8 +108,12 @@ En este trabajo se utilizó un filtro Butterworth de orden 5 discretizado por el
 \headerbox{Descripción del experimento}{name=methods,column=0,below=introduction}{
 
 \begin{description}
-\item[ER1] Sed a orci non ipsum posuere placerat. Nunc in mi augue, a adipiscing massa. Donec dapibus gravida odio, condimentum convallis urna.\item[ER2] Nullam sagittis cursus neque, sit amet mollis elit auctor in. Etiam sed lectus a nulla rhoncus interdum a tempus nunc. Sed at eleifend purus.
+\item[ER1] Sed a orci non ipsum posuere placerat. Nunc in mi augue, a adipiscing massa. Donec dapibus gravida odio, condimentum convallis urna.
 \end{description}
+\begin{center}
+\includegraphics[width=\linewidth]{galileo}
+\\ {\footnotesize \textbf{Figura X.} Placa utilizada. Intel Galileo.}
+\end{center}
 
 Nullam sollicitudin lobortis urna quis varius. Nullam sagittis blandit diam, $DN = G_t(V_t,E_t)$, risus $E_t \subseteq V_t \times V_t$ ($\forall t \geq 0$). vel tortor justo, $G_0$, quis malesuada lorem.
 
@@ -119,7 +122,6 @@ Nullam sollicitudin lobortis urna quis varius. Nullam sagittis blandit diam, $DN
 \label{eq:refname}
 \end{equation}
 
-Vivamus porta lacus et lectus \textbf{porta lacus}. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis. torte $G_t$ hac millis \textbf{plates} Idk 
 }
 
 %----------------------------------------------------------------------------------------
@@ -166,8 +168,12 @@ Fusce mattis tellus ac odio imperdiet lobortis. Cum sociis natoque penatibus et 
 
 \headerbox{Transformada discreta de Fourier (DFT)}{name=results1,span=2,column=1,row=0}{ % To reduce this block to 1 column width, remove 'span=2'
 
-Para el caso en estudio, daños en estructuras, las mediciones de vibración en la estructura fueron procesados por medio de la Transdormada Discreta de Fourier
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Para el caso en estudio, daños en estructuras, las mediciones de vibración en la estructura fueron procesados a través de la Transformada Discreta de Fourier, utilizando la de la biblioteca \textit{FFTW}. 
+
+\begin{center}
+\includegraphics[width=0.5\linewidth]{fft}
+\\ {\footnotesize \textbf{Figura X.} DFT de datos de vibración, sin filtrar.}
+\end{center}
 
 %------------------------------------------------
 
