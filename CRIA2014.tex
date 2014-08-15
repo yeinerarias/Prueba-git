@@ -28,7 +28,7 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \graphicspath{{figures/}} % Directory in which figures are stored
-
+\usepackage{booktabs}
 \definecolor{bordercol}{RGB}{40,40,40} % Border color of content boxes
 \definecolor{headercol1}{RGB}{186,215,230} % Background color for the header in the content boxes (left side)
 \definecolor{headercol2}{RGB}{80,80,80} % Background color for the header in the content boxes (right side)
@@ -132,21 +132,13 @@ Nullam sollicitudin lobortis urna quis varius. Nullam sagittis blandit diam, $DN
 %	CONCLUSION
 %----------------------------------------------------------------------------------------
 
-\headerbox{Conclusion}{name=conclusion,column=0,below=methods}{
 
-Fusce at erat vitae metus porttitor auctor sit amet at ante. In id dolor tellus, non aliquet elit. Vestibulum bibendum, augue sed laoreet congue, enim nisi ultricies diam, ac pharetra mi dui ut sapien. Maecenas fermentum, neque ut scelerisque consequat, purus leo ultrices nulla, quis scelerisque risus elit non turpis. 
-
-\begin{enumerate}
-\item Cras ac ipsum eu nisl imperdiet interdum nunc bibendum, est in pulvinar facilisis, mi purus fringilla tellus, eu varius ipsum ante laoreet ipsum
-\item Sed cursus erat quis odio laoreet facilisis maecenas vehicula
-\end{enumerate}
-}
 
 %----------------------------------------------------------------------------------------
 %	REFERENCES
 %----------------------------------------------------------------------------------------
 
-\headerbox{References}{name=references,column=0,below=conclusion}{
+\headerbox{Referencias}{name=references,column=0,below=methods}{
 
 \smaller % Reduce the font size in this block
 \renewcommand{\section}[2]{\vskip 0.05em} % Get rid of the default "References" section title
@@ -160,11 +152,11 @@ Fusce at erat vitae metus porttitor auctor sit amet at ante. In id dolor tellus,
 %	ACKNOWLEDGEMENTS
 %----------------------------------------------------------------------------------------
 
-\headerbox{Acknowledgements}{name=acknowledgements,column=0,below=references, above=bottom}{
+%\headerbox{Acknowledgements}{name=acknowledgements,column=0,below=references, above=bottom}{
 
-\smaller % Reduce the font size in this block
-Fusce mattis tellus ac odio imperdiet lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus commodo blandit euismod. Ut porttitor cursus magna. Mauris adipiscing pellentesque ipsum nec facilisis. Cras ornare bibendum bibendum. Ut a elit purus, vel adipiscing.
-} 
+%\smaller % Reduce the font size in this block
+%Fusce mattis tellus ac odio imperdiet lobortis. Cum sociis natoque penatibus et %magnis dis parturient montes, nascetur ridiculus mus. Phasellus commodo blandit %euismod. Ut porttitor cursus magna. Mauris adipiscing pellentesque ipsum nec %facilisis. Cras ornare bibendum bibendum. Ut a elit purus, vel adipiscing.
+%} 
 
 %----------------------------------------------------------------------------------------
 %	RESULTS 1
@@ -205,7 +197,7 @@ Para el caso en estudio, daños en estructuras, las mediciones de vibración en 
 %	RESULTS 2
 %----------------------------------------------------------------------------------------
 
-\headerbox{Resultados Entrenamiento}{name=results2,span=2,column=1,below=results1,above=bottom}{ % To reduce this block to 1 column width, remove 'span=2'
+\headerbox{Resultados Entrenamiento}{name=results2,span=2,column=1,below=results1}{ % To reduce this block to 1 column width, remove 'span=2'
 
 
 
@@ -216,7 +208,9 @@ Para el caso en estudio, daños en estructuras, las mediciones de vibración en 
 
 \begin{center}
 \begin{tabular}{ccccc}
+\toprule
 Frecuencia (Hz) & Falta &Salida esperada &Salida Final & Predicción de Falta \\
+\midrule
 13,6 & 0 & 1 & 0,158297 & 0 \\
 14,0 & 0 & 1 & 0,193457 & 0 \\
 13,6 & 0 & 1 & 0,158297 & 0 \\
@@ -250,7 +244,8 @@ Frecuencia (Hz) & Falta &Salida esperada &Salida Final & Predicción de Falta \\
 32,2 & 0 & 1 & 1,012728 & 0 \\
 27,6 & 0 & 1 & 0,900674 & 0 \\
 26,0 & 0 & 1 & 0,852009 & 0 \\
-1,8 & 1 & -1 & -1,413221 & 1
+1,8 & 1 & -1 & -1,413221 & 1 \\
+\bottomrule
 \end{tabular}
 \end{center}
 
@@ -262,7 +257,15 @@ Frecuencia (Hz) & Falta &Salida esperada &Salida Final & Predicción de Falta \\
 
 %------------------------------------------------
 }
+\headerbox{Conclusiones}{name=conclusion,column=1,row=0, span=2, below=results2,above=bottom}{
 
+Fusce at erat vitae metus porttitor auctor sit amet at ante. In id dolor tellus, non aliquet elit. Vestibulum bibendum, augue sed laoreet congue, enim nisi ultricies diam, ac pharetra mi dui ut sapien. Maecenas fermentum, neque ut scelerisque consequat, purus leo ultrices nulla, quis scelerisque risus elit non turpis. 
+
+\begin{enumerate}
+\item Cras ac ipsum eu nisl imperdiet interdum nunc bibendum, est in pulvinar facilisis, mi purus fringilla tellus, eu varius ipsum ante laoreet ipsum
+\item Sed cursus erat quis odio laoreet facilisis maecenas vehicula
+\end{enumerate}
+}
 %----------------------------------------------------------------------------------------
 
 \end{poster}
