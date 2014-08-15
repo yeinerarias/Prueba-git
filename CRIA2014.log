@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.7.14)  15 AUG 2014 13:23
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.7.14)  15 AUG 2014 13:27
 entering extended mode
 **CRIA2014.tex
 (C:\Users\Yeiner\Dropbox\Trabajitos\CRIA2014\CRIA2014.tex
@@ -979,24 +979,24 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 139.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 142.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 139.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 142.
 
 <figures/galileo.png, id=34, 996.72375pt x 553.06625pt>
 File: figures/galileo.png Graphic file (type png)
 
 <use figures/galileo.png>
-Package pdftex.def Info: figures/galileo.png used on input line 139.
-(pdftex.def)             Requested size: 207.93826pt x 115.37938pt.
+Package pdftex.def Info: figures/galileo.png used on input line 142.
+(pdftex.def)             Requested size: 124.76422pt x 69.22594pt.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1007,7 +1007,7 @@ Missing character: There is no ; in font nullfont!
 File: figures/fft.png Graphic file (type png)
 
 <use figures/fft.png>
-Package pdftex.def Info: figures/fft.png used on input line 210.
+Package pdftex.def Info: figures/fft.png used on input line 213.
 (pdftex.def)             Requested size: 217.93582pt x 156.98059pt.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1016,12 +1016,12 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 286.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 289.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (2.22534pt too wide) in paragraph at lines 73--289
+Overfull \hbox (2.22534pt too wide) in paragraph at lines 73--292
 [][]  [] 
  []
 
@@ -1036,7 +1036,7 @@ CRIA2014/figures/logo.png> <C:/Users/Yeiner/Dropbox/Trabajitos/CRIA2014/figures
 Here is how much of TeX's memory you used:
  16585 strings out of 493921
  335072 string characters out of 3144873
- 391040 words of memory out of 3000000
+ 390056 words of memory out of 3000000
  19543 multiletter control sequences out of 15000+200000
  17604 words of font info for 46 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -1058,7 +1058,7 @@ les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files
 86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on CRIA2014.pdf (1 page, 688281 bytes).
+Output written on CRIA2014.pdf (1 page, 688223 bytes).
 PDF statistics:
  334 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
