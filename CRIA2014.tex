@@ -27,6 +27,7 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+\usepackage{mathtools}
 \graphicspath{{figures/}} % Directory in which figures are stored
 \usepackage{booktabs}
 \definecolor{bordercol}{RGB}{40,40,40} % Border color of content boxes
@@ -116,14 +117,21 @@ La detección de faltas en sistemas, en general, requiere una distribución de c
 \headerbox{Descripción del experimento}{name=methods,column=0,below=introduction}{
 
 \begin{footnotesize}
-El método de análisis de vibración utilizado para el experimento fue el de desplazamiento de frecuencia, en el que la detección de los daños se basa en los cambios en la frecuencias naturales de la estructura, la base del método es que la frecuencia a la que vibra es una función de su rigidez, de modo que un cambio en este parámetro causada por cualquier daño que se refleja como una disminución en las frecuencias.\\
+El método de análisis de vibración utilizado para este experimento fue el de desplazamiento de frecuencia, en el que la detección de los daños se realizar por medio de los cambios en las frecuencias naturales de la estructura. El método se basa en que la frecuencia de vibración es una función de la rigidez, de modo que un cambio en este parámetro causado por el deterioro de la estructura se refleja como una disminución en las frecuencias de vibración.\\
 
-Medición de vibraciones se realizó el punto A por un acelerómetro ADXL335 con una sensibilidad eléctrica de 330 mV/g que operan en la fuente de alimentación 3,3 V y un rango de medición típica de \div 3,6 g.ADXL335 fue leído con el Intel Galileo utilizando el ADC AD7298 incorporado en él, con una resolución de 12 bits, con una frecuencia de muestreo de 200 Hz, este proceso se llevó a cabo por una rutina de C implementado, funcionando como una única secuencia en la aplicación del espacio de usuario. La figura 1 muestra el diagrama de conexión Intel Galileo y el acelerómetro ADXL335.
+\textbf{Componentes de Sistema}
+\begin{itemize}
+	\item Acelerómetro ADXL335, 330 mV/g, $\pm$3,6 g.
+	\item Intel Galileo, ADC AD7298 12 bits, 200 Hz.
+	\item Filtro Digital.
+	\item FFTW.
+\end{itemize}
+
 \end{footnotesize}
 
 \begin{center}
 \includegraphics[width=\linewidth]{galileo}
-\\ {\footnotesize \textbf{Figura X.} Placa utilizada. Intel Galileo.}
+\\ {\footnotesize \textbf{Figura 2.} Placa utilizada. Intel Galileo.}
 \end{center}
 
 
