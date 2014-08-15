@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.7.14)  15 AUG 2014 13:36
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.7.14)  15 AUG 2014 13:43
 entering extended mode
 **CRIA2014.tex
 (C:\Users\Yeiner\Dropbox\Trabajitos\CRIA2014\CRIA2014.tex
@@ -1034,7 +1034,7 @@ CRIA2014/figures/logo.png> <C:/Users/Yeiner/Dropbox/Trabajitos/CRIA2014/figures
 Here is how much of TeX's memory you used:
  16584 strings out of 493921
  335058 string characters out of 3144873
- 390068 words of memory out of 3000000
+ 390069 words of memory out of 3000000
  19542 multiletter control sequences out of 15000+200000
  17604 words of font info for 46 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -1055,7 +1055,7 @@ les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files
  (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x
 86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on CRIA2014.pdf (1 page, 675751 bytes).
+Output written on CRIA2014.pdf (1 page, 675753 bytes).
 PDF statistics:
  314 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
